@@ -11,6 +11,10 @@ body {
   font-weight: bold;
 }
 
+.left {
+  margin-top: 10px;
+}
+
 .left li {
   display: inline;
   margin-right: 30px;
@@ -91,10 +95,12 @@ body {
 
 .aboutText h2 {
   font-size: 2.25rem;
+  font-weight: bold;
 }
 
 .aboutText p {
-  font-size: 1.125rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .about img {
