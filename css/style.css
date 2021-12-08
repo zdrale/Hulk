@@ -218,3 +218,27 @@ body {
 .rightSide img {
   margin-right: -50px;
 }
+
+/*Testimonials Section Styles */
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -18px;
+  height: 350px;
+  background-color: #ececec;
+  text-align: center;
+  line-height: 2;
+}
+
+.testimonialsTxt h5 {
+  text-transform: uppercase;
+  font-family: "Overpass", sans-serif;
+}
+
+.testimonialsTxt p {
+  font-size: 1.563rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
