@@ -83,6 +83,7 @@ body {
   background-position-x: 20%;
   display: flex;
   justify-content: end;
+  margin-bottom: 50px;
 }
 
 .aboutText {
@@ -126,4 +127,42 @@ body {
   font-size: 0.7rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/* Gallery Section Styles */
+
+.galerryWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.galerryWrapper img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.imgContainer {
+  position: relative;
+  width: 535px;
+  height: 415px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imgContainer img:hover {
+  transform: scale(1.1);
+}
+
+.imgContainer img:not(:hover) {
+  transform: scale(1);
+}
+
+.centerText {
+  position: absolute;
+  top: 50%;
+  left: 120%;
+  transform: translate(-50%, -50%);
 }
