@@ -115,6 +115,9 @@ body {
 .aboutText ul li img {
   height: 66px;
   width: 69px;
+  position: relative;
+  top: 25px;
+  left: -2px;
 }
 
 .aboutText a {
@@ -227,6 +230,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: -18px;
+  margin-bottom: 80px;
   height: 350px;
   background-color: #ececec;
   text-align: center;
@@ -242,4 +246,89 @@ body {
   font-size: 1.563rem;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+}
+
+/* Subscription styles */
+
+.subscription {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.subscriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 606px;
+  position: relative;
+  left: -5%;
+  bottom: 20%;
+  top: 30px;
+  background-color: #dae5e5;
+  text-align: left;
+  padding: 0 6rem;
+  line-height: 2;
+  border-radius: 0px 10px 10px 0;
+}
+
+.subscriptionWrapper h5 {
+  color: #002d33;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  margin-top: 60px;
+}
+
+.subscriptionWrapper h3 {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.subscriptionWrapper p {
+  color: #002d33;
+  font-size: 1.125;
+  line-height: 1.5;
+}
+
+.subscriptionWrapper a {
+  text-decoration: none;
+  color: #fffafa;
+  background-color: #004a4c;
+  font-size: 0.9rem;
+  width: 207px;
+  height: 40px;
+  border: 1px solid #004a4c;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 12px;
+  bottom: 40px;
+}
+
+.eco {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-bottom: 35px;
+}
+
+.eco img {
+  position: relative;
+  top: 25px;
+  left: -15px;
+}
+
+#rightImage {
+  position: relative;
+  bottom: -300px;
+  width: 308px;
+  height: 373px;
+  z-index: 3;
+}
+
+#leftImage {
+  position: relative;
+  z-index: 2;
+  right: -236px;
 }
