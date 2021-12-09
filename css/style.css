@@ -209,6 +209,7 @@ body {
 .rightSide img {
   height: 350px;
   width: 350px;
+  transition: 0.5s ease-in-out;
 }
 
 .rightSide img:hover {
