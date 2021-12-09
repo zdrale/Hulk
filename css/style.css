@@ -332,3 +332,48 @@ body {
   z-index: 2;
   right: -236px;
 }
+
+/*Ocean section styles */
+
+.ocean {
+  height: 50vh;
+  margin-top: 150px;
+  padding: 25px;
+}
+
+.oceanWrapper {
+  background-image: url("/Assets/andrzej-kryszpiniuk-4wFqHZ1ONnM-unsplash.png");
+  background-color: aqua;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 15rem;
+  height: 100%;
+  line-height: 2;
+}
+
+.oceanWrapper h4 {
+  font-family: "Overpass", sans-serif;
+  color: #fffafa;
+  font-size: 1.1rem;
+}
+
+.oceanWrapper h3 {
+  color: #fffafa;
+  font-size: 2rem;
+}
+
+.oceanWrapper p {
+  color: #fffafa;
+  margin-bottom: 20px;
+  font-family: "Overpass", sans-serif;
+}
+
+.oceanWrapper a {
+  text-decoration: none;
+  background-color: #fffafa;
+  color: #004a4c;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+}
