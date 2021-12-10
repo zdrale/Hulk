@@ -418,3 +418,33 @@ body {
   top: -20px;
   position: relative;
 }
+
+.instagram {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #004a4c;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+  border: 1px solid #004a4c;
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+#ig {
+  padding: 0.7rem 1rem;
+  border: 1px solid #004a4c;
+  border-radius: 0 5px 5px 0;
+  margin-left: -1px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.social a {
+  text-align: center;
+}
