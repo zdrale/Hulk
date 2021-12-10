@@ -338,6 +338,7 @@ body {
 .ocean {
   height: 50vh;
   margin-top: 150px;
+  margin-bottom: 320px;
   padding: 25px;
 }
 
@@ -376,4 +377,44 @@ body {
   color: #004a4c;
   padding: 0.8rem 2rem;
   border-radius: 5px;
+}
+
+/*carousel section styles */
+.carouselSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carouselSection h3 {
+  color: #002d33;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  right: 10px;
+  position: relative;
+}
+
+.carousel img {
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+}
+
+.carousel .carouselItem:nth-child(even) {
+  top: 20px;
+  position: relative;
+}
+
+.carousel .carouselItem:nth-child(odd) {
+  top: -20px;
+  position: relative;
 }
