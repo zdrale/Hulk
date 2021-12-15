@@ -3,7 +3,6 @@ body {
 }
 
 /* Header Section Styles */
-
 .headerWrapper {
   display: flex;
   justify-content: space-between;
@@ -76,9 +75,9 @@ body {
   width: 100%;
   height: 100vh;
   line-height: 2;
-  background-image: url("/Assets/Biom fn .23@2x.png");
+  background-image: url("/Assets/Mask\ Group\ 12.png");
   background-repeat: no-repeat;
-  background-size: 135%;
+  background-size: 100%;
   background-position-y: 40%;
   background-position-x: 20%;
   display: flex;
@@ -342,14 +341,16 @@ body {
   padding: 25px;
 }
 
+#videoBackground {
+  height: 100vh;
+  width: 100vw;
+  object-fit: scale-down;
+  border-radius: 40px;
+}
+
 .oceanWrapper {
-  background-image: url("/Assets/andrzej-kryszpiniuk-4wFqHZ1ONnM-unsplash.png");
-  background-color: aqua;
-  background-size: 100%;
-  background-repeat: no-repeat;
   border-radius: 10px;
   text-align: center;
-  padding-top: 15rem;
   height: 100%;
   line-height: 2;
 }
@@ -385,6 +386,7 @@ body {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 220px;
 }
 
 .carouselSection h3 {
@@ -447,4 +449,84 @@ body {
 
 .social a {
   text-align: center;
+}
+
+footer {
+  background-color: #487d7f;
+  height: 45vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter {
+  width: 90%;
+  height: 35vh;
+  position: relative;
+  background-image: url("/Assets/Biom_wipe_2.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #f2f2f2;
+  left: 5%;
+  border-radius: 20px;
+  top: -140px;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.newsletter h3 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.newsletter p {
+  font-size: 0.9rem;
+}
+
+.newsletter * {
+  margin-left: 100px;
+  position: relative;
+  top: 14%;
+}
+
+.subscribe {
+  position: absolute;
+  top: 190px;
+  left: -100px;
+}
+
+.subscribe input {
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe span {
+  position: relative;
+  left: -230px;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: center;
+  height: 0.2%;
+  border-bottom: 1px solid #004a4c;
+}
+
+.footerNav li {
+  position: relative;
+  top: -90px;
+  display: inline;
+  color: #fffafa;
+  text-transform: uppercase;
+  margin: 0 30px;
+  font-size: 0.9rem;
+}
+
+.copy {
+  color: white;
+  font-size: 0.8rem;
+  margin: 20px 0;
 }
