@@ -451,7 +451,7 @@ body {
 
 footer {
   background-color: #487d7f;
-  height: 45vh;
+  height: 47vh;
   width: 100%;
   position: absolute;
   display: flex;
@@ -526,5 +526,17 @@ footer {
 .copy {
   color: white;
   font-size: 0.8rem;
-  margin: 20px 0;
+  margin: 20px 20px;
+}
+
+.socialMediaFooter {
+  width: 20%;
+  position: relative;
+  right: -80%;
+  top: -40px;
+}
+
+.socialMediaFooter li {
+  display: inline;
+  margin: 20px;
 }
